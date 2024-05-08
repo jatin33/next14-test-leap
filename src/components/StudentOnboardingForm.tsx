@@ -29,6 +29,11 @@ function StudentOnboardingForm() {
         return (
           <form className="flex items-center justify-between pb-4">
             <div className="flex items-center gap-x-3">
+              <FFTextInput
+                fieldProps={{
+                  name: "test-input",
+                }}
+              />
               <FFDropdown
                 fieldProps={{
                   name: `taskAssignedToId`,
