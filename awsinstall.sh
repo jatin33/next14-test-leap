@@ -1,2 +1,2 @@
 yarn aws:login
-yarn install
+yarn install --force
