@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "aws:login": "bash awsCodeArtifactLogin.sh",
+    "aws:install": "bash awsInstall.sh"
   },
   "dependencies": {
     "@leapfinance/geebee-component-library": "^0.1.0",
